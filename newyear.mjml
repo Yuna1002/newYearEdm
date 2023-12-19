@@ -1,0 +1,93 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding-top="4px" padding-bottom="4px" />
+      <mj-class name="h2" font-size="20px" color="#ffffff" font-weight="bold" />
+      <mj-class
+        name="h3"
+        font-size="18px"
+        color="#FFE3BB"
+        font-weight="bold"
+        padding-top="4px"
+        padding-bottom="4px"
+      />
+      <mj-class
+        name="price"
+        font-family="Arial, sans-serif"
+        font-style="italic"
+        font-weight="bold"
+        font-size="28px"
+        color="#F2AE30"
+        padding-top="4px"
+        padding-bottom="ㄉpx"
+      />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section
+      background-url="https://img.freepik.com/free-photo/ancient-chinise-room_1417-1692.jpg?w=1480&t=st=1702980114~exp=1702980714~hmac=4ccd4a4dfc6c2495b11ec2e23c8c1d20515494201cb7464d9d82fd9b409c63e0"
+      background-size="cover"
+      background-repeat="no-repeat"
+      background-position="center"
+      padding="80px 0"
+    >
+      <mj-column width="200px" background-color="#D9985F">
+        <mj-text
+          align="center"
+          color="#1F1F1F"
+          font-size="24px"
+          font-weight="bold"
+          padding="24px 0px"
+          >懷舊小館</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#80221A">
+      <mj-column>
+        <mj-text align="center" mj-class="h2" padding-bottom="0px"
+          >年菜預訂</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#80221A">
+      <mj-column width="250px">
+        <mj-image
+          src="https://img.freepik.com/free-photo/view-food-arrangement-still-life_23-2149325286.jpg?size=626&ext=jpg&uid=R39181496&ga=GA1.2.263641105.1695617101"
+        />
+        <mj-text align="center" mj-class="h3">懷舊年菜組</mj-text>
+        <mj-text align="center" color="#F0F0F0">六菜一湯，4-6人份</mj-text>
+        <mj-text align="center" mj-class="price">$1888</mj-text>
+      </mj-column>
+      <mj-column width="250px">
+        <mj-image
+          src="https://img.freepik.com/free-photo/top-view-hotpot-dishes_23-2149563784.jpg?size=626&ext=jpg&uid=R39181496&ga=GA1.2.263641105.1695617101"
+        />
+        <mj-text align="center" mj-class="h3">圍爐沙鍋魚頭</mj-text>
+        <mj-text align="center" color="#F0F0F0"
+          >鮭魚頭＋砂鍋菜＋白蝦1份</mj-text
+        >
+        <mj-text align="center" mj-class="price">$890</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#80221A">
+      <mj-column>
+        <mj-button
+          href="#"
+          background-color="#DB302C"
+          color="#EDEDED"
+          font-weight="bold"
+          >立即搶購</mj-button
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#EFD5B1" padding="8px 0">
+      <mj-column>
+        <mj-text align="center" font-weight="bold">懷舊小館</mj-text>
+        <mj-text align="center">電話: 02-000-000</mj-text>
+        <mj-text align="center">地址: 高雄市內港區館東路111號</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
